@@ -12,7 +12,7 @@
 -behaviour(application).
 
 %% API
--export([install/1, add_friend/4, add_service/4]).
+-export([install/1, add_friend/4, add_service/4, friend_by_name/1]).
 
 %% Application Callback
 -export([start/2, stop/1]).
@@ -64,5 +64,19 @@ add_service(From, To, Date, Desc) ->
             end
         end,
     mnesia:activity(transaction, F).
+
+friend_by_name(Name) ->
+    F = fun() -> 
+            case mnesia:read({mafiapp_friends, Name}) of
+                [#mafiapp_friends{contact=C, info=I, expertise=E}] ->
+                    {Name, C, I, E, find_services(Name)};
+                [] ->
+                    undefined
+            end
+        end,
+    mnesia:activity(transaction, F).
+
+%% Private functions
+find_services(_Name) -> undefined.
 
 

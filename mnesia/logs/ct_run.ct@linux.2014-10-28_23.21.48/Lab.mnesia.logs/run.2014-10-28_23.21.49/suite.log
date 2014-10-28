@@ -1,0 +1,69 @@
+=== Suite started at 2014-10-28 23:21:49
+=== Starting test, 2 test cases
+=cases         2
+=user          huanzh
+=host          linux
+=hosts         linux 
+=emulator_vsn  6.2
+=emulator      beam
+=otp_release   17
+=started       2014-10-28 23:21:49
+=case          mafiapp_SUITE:init_per_suite
+=logfile       mafiapp_suite.init_per_suite.html
+=started       2014-10-28 23:21:49
+=ended         2014-10-28 23:21:50
+=result        ok
+=elapsed       0.923264
+=case          mafiapp_SUITE:add_service
+=logfile       mafiapp_suite.add_service.html
+=started       2014-10-28 23:21:50
+=ended         2014-10-28 23:21:50
+=result        failed: {undef,
+                           [{mafiapp_SUITE,add_service,
+                                [[{watchdog,<0.204.0>},
+                                  {tc_logfile,
+                                      "/home/huanzh/open-source/Lab/mnesia/logs/ct_run.ct@linux.2014-10-28_23.21.48/Lab.mnesia.logs/run.2014-10-28_23.21.49/mafiapp_suite.add_service.html"},
+                                  {tc_group_properties,[]},
+                                  {tc_group_path,[]},
+                                  {data_dir,
+                                      "/home/huanzh/open-source/Lab/mnesia/test/mafiapp_SUITE_data/"},
+                                  {priv_dir,
+                                      "/home/huanzh/open-source/Lab/mnesia/logs/ct_run.ct@linux.2014-10-28_23.21.48/Lab.mnesia.logs/run.2014-10-28_23.21.49/log_private/"}]],
+                                []},
+                            {test_server,ts_tc,3,
+                                [{file,"test_server.erl"},{line,1415}]},
+                            {test_server,run_test_case_eval1,6,
+                                [{file,"test_server.erl"},{line,1028}]},
+                            {test_server,run_test_case_eval,9,
+                                [{file,"test_server.erl"},{line,976}]}]}, [{mafiapp_SUITE,
+                                                                            add_service},
+                                                                           {test_server,
+                                                                            ts_tc,
+                                                                            1415},
+                                                                           {test_server,
+                                                                            run_test_case_eval1,
+                                                                            1028},
+                                                                           {test_server,
+                                                                            run_test_case_eval,
+                                                                            976}]
+=== *** FAILED test case 1 of 2 ***
+=case          mafiapp_SUITE:friend_by_name
+=logfile       mafiapp_suite.friend_by_name.html
+=started       2014-10-28 23:21:50
+=ended         2014-10-28 23:21:50
+=result        ok
+=elapsed       9.49e-4
+=case          mafiapp_SUITE:end_per_suite
+=logfile       mafiapp_suite.end_per_suite.html
+=started       2014-10-28 23:21:50
+=ended         2014-10-28 23:21:50
+=result        ok
+=elapsed       0.00807
+=group_time    1.322s
+=== TEST COMPLETE, 1 ok, 1 failed of 2 test cases
+
+=finished      2014-10-28 23:21:50
+=failed        1
+=successful    1
+=user_skipped  0
+=auto_skipped  0
