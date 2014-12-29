@@ -41,3 +41,23 @@ qsort([]) -> [];
 qsort([Privot|T]) ->
     qsort([X || X <- T, X < Privot]) ++ Privot ++ qsort([X || X <- T, X > Privot]).
 
+
+%% 找出素数
+prime_num(L) ->
+    lists:reverse(prime_num(L, [])).
+
+prime_num([], Acc) -> Acc;
+prime_num([H|T], Acc) when H > 2 ->
+    case do(H, lists:seq(2, H-1)) of
+        true -> prime_num(T, [H|Acc]);
+        false -> prime_num(T, Acc)
+    end.
+
+do(_N, []) -> true;
+do(N, [X|Y]) ->
+    case N rem X =:= 0 of
+        true -> false;
+        false -> do(N, Y)
+    end.
+
+
