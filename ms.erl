@@ -12,6 +12,9 @@
 %% API
 -compile(export_all).
 
+-record(bag, {cid, items = #{}}).
+
+
 
 even1(L) ->
     lists:reverse(even1(L, [])).
