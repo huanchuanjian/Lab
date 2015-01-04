@@ -17,7 +17,7 @@
          init_per_testcase/2, 
          friend_by_name/1]).
 
-all() -> [friend_by_name].
+all() -> [add_service, friend_by_name, friend_by_services].
 
 init_per_suite(Config) ->
     Priv = ?config(priv_dir, Config),
@@ -31,6 +31,8 @@ end_per_suite(_Config) ->
     application:stop(mnesia),
     ok.
 
+init_per_testcase(add_service, Config) ->
+    Config;
 init_per_testcase(_, Config) ->
     ok = mafiapp:add_friend("panxh", [], [boss], erlang),
     Config.
@@ -43,6 +45,10 @@ friend_by_name(_Config) ->
                                       boss, china], erlang),
     {"panxh", _Contact, _Info, erlang, _Services} = mafiapp:friend_by_name("panxh"),
     undefined = mafiapp:friend_by_name(make_ref()).
+
+
+
+
 
 
 
