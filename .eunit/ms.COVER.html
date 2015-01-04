@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>.eunit/ms.COVER.html</title>
+</head><body style='background-color: white; color: black'>
+<pre>
+File generated from /Users/mac01/dev/github/lab/.eunit/ms.erl by COVER 2014-12-31 at 15:24:07
+
+****************************************************************************
+
+        |  %%%-------------------------------------------------------------------
+        |  %%% @author mac01
+        |  %%% @copyright (C) 2014, &lt;COMPANY&gt;
+        |  %%% @doc
+        |  %%%
+        |  %%% @end
+        |  %%% Created : 29. 十二月 2014 下午5:17
+        |  %%%-------------------------------------------------------------------
+        |  -module(ms).
+        |  -author("mac01").
+        |  
+        |  %% API
+        |  -compile(export_all).
+        |  
+        |  -record(bag, {cid, items = #{}}).
+        |  
+        |  
+        |  
+        |  even1(L) -&gt;
+<font color=red>     0..|      lists:reverse(even1(L, [])).</font>
+<font color=red>     0..|  even1([], Acc) -&gt; Acc;</font>
+        |  even1([H|T], Acc) -&gt;
+<font color=red>     0..|      case H rem 2 =:= 0 of</font>
+<font color=red>     0..|          true -&gt; even1(T, [H|Acc]);</font>
+<font color=red>     0..|          false -&gt; even1(T, Acc)</font>
+        |      end.
+        |  
+        |  even2(L) -&gt;
+<font color=red>     0..|      lists:foldr(</font>
+        |          fun(X, Acc) -&gt;
+<font color=red>     0..|              case X rem 2 =:= 0 of</font>
+<font color=red>     0..|                  true -&gt; [X|Acc];</font>
+<font color=red>     0..|                  false -&gt; Acc</font>
+        |              end
+        |          end,
+        |          [], L).
+        |  
+        |  even3(L) -&gt;
+<font color=red>     0..|      [X || X &lt;- L, X rem 2 =:= 0].</font>
+        |  
+        |  
+        |  %% quick sort
+<font color=red>     0..|  qsort([]) -&gt; [];</font>
+        |  qsort([Privot|T]) -&gt;
+<font color=red>     0..|      qsort([X || X &lt;- T, X &lt; Privot]) ++ Privot ++ qsort([X || X &lt;- T, X &gt; Privot]).</font>
+        |  
+        |  
+        |  %% 找出素数
+        |  prime_num(L) -&gt;
+<font color=red>     0..|      lists:reverse(prime_num(L, [])).</font>
+        |  
+<font color=red>     0..|  prime_num([], Acc) -&gt; Acc;</font>
+        |  prime_num([H|T], Acc) when H &gt; 2 -&gt;
+<font color=red>     0..|      case do(H, lists:seq(2, H-1)) of</font>
+<font color=red>     0..|          true -&gt; prime_num(T, [H|Acc]);</font>
+<font color=red>     0..|          false -&gt; prime_num(T, Acc)</font>
+        |      end.
+        |  
+<font color=red>     0..|  do(_N, []) -&gt; true;</font>
+        |  do(N, [X|Y]) -&gt;
+<font color=red>     0..|      case N rem X =:= 0 of</font>
+<font color=red>     0..|          true -&gt; false;</font>
+<font color=red>     0..|          false -&gt; do(N, Y)</font>
+        |      end.
+        |  
+        |  
+</pre>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>.eunit/ops_test.COVER.html</title>
+</head><body style='background-color: white; color: black'>
+<pre>
+File generated from /Users/mac01/dev/github/lab/.eunit/ops_test.erl by COVER 2014-12-31 at 15:24:07
+
+****************************************************************************
+
+        |  -module(ops_test).
+        |  
+        |  -include_lib("eunit/include/eunit.hrl").
+        |  
+        |  
+        |  %% ?assert(Expression), ?assertNot(Expression)
+        |  %% ?assertEqual(A, B)
+        |  
+        |  
+        |  add_test() -&gt;
+     1..|  	4 = ops:add(2,2).
+        |  
+        |  new_add_test() -&gt;
+     1..|  	?assert(is_number(ops:add(1,2))),
+        |  
+     1..|  	?assertEqual(4,ops:add(2,2)),
+        |  	%?assertEqual(3,ops:add(2,2)),
+        |  
+     1..|  	?assertError(badarith, 1/0).
+        |  
+        |  
+        |  %% test generators
+        |  my_test_() -&gt;
+     1..|  	[test_them_types(),
+        |  	 test_them_values(),
+     1..|  	 ?_assertError(badarith, 1/0)].
+        |  
+        |  test_them_types() -&gt;
+     1..|  	?_assert(is_number(ops:add(2,2))).
+        |  
+        |  test_them_values() -&gt;
+     1..|  	[?_assertEqual(4,ops:add(2,2)),
+     1..|  	?_assertEqual(3,ops:add(1,2))].</pre>
+</body>
+</html>
