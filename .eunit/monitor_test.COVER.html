@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>.eunit/monitor_test.COVER.html</title>
+</head><body style='background-color: white; color: black'>
+<pre>
+File generated from /Users/mac01/dev/github/lab/.eunit/monitor_test.erl by COVER 2014-12-31 at 15:24:07
+
+****************************************************************************
+
+        |  -module(monitor_test).
+        |  
+        |  -compile(export_all).
+        |  
+        |  start() -&gt;
+<font color=red>     0..|  	PidA = spawn(fun() -&gt; a() end),</font>
+<font color=red>     0..|  	register(pa, PidA),</font>
+        |  
+<font color=red>     0..|  	PidB = spawn(fun() -&gt; b() end),</font>
+<font color=red>     0..|  	register(pb, PidB),</font>
+        |  
+<font color=red>     0..|  	PidC = spawn(fun() -&gt; c(PidA) end),</font>
+<font color=red>     0..|  	register(pc, PidC),</font>
+        |  
+<font color=red>     0..|  	check(),</font>
+<font color=red>     0..|  	ok.</font>
+        |  
+        |  check() -&gt;
+<font color=red>     0..|  	io:format("pa=~p; pb=~p; pc=~p~n", [whereis(pa), whereis(pb), whereis(pc)]),</font>
+<font color=red>     0..|  	ok.</font>
+        |  
+        |  a() -&gt;
+<font color=red>     0..|  	io:format("A is running.~n", []),</font>
+<font color=red>     0..|  	erlang:send_after(5000, self(), killself),</font>
+<font color=red>     0..|  	receive</font>
+<font color=red>     0..|  		killself -&gt; exit(normal);</font>
+<font color=red>     0..|  		_ -&gt; skip</font>
+        |  	end.
+        |  
+        |  b() -&gt;
+<font color=red>     0..|  	io:format("B is running.~n", []),</font>
+<font color=red>     0..|  	case whereis(pa) of</font>
+<font color=red>     0..|  		undefined -&gt; skip;</font>
+<font color=red>     0..|  		_ -&gt; monitor(process, pa)	</font>
+        |  	end,
+<font color=red>     0..|  	receive</font>
+        |  		{'DOWN', _MRef, _Type, _Object, _Info} -&gt;
+<font color=red>     0..|  			io:format("Process A is down~n", []),</font>
+<font color=red>     0..|  			b();</font>
+        |  		_ -&gt;
+<font color=red>     0..|  			skip</font>
+        |  	end.
+        |  
+        |  c(PidA) -&gt;
+<font color=red>     0..|  	io:format("C is running.~n", []),</font>
+<font color=red>     0..|  	link(PidA).</font>
+        |  
+</pre>
+</body>
+</html>

@@ -10,7 +10,6 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-	ok = lager:start(),
     lab_sup:start_link().
 
 stop(_State) ->
