@@ -1,0 +1,76 @@
+2015-01-07 00:10:25 =CRASH REPORT====
+  crasher:
+    initial call: bigwig_http:init/1
+    pid: <0.215.0>
+    registered_name: []
+    exception exit: {{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,[]},{[<<"appmon">>,'...'],bigwig_http_appmon,[]},{[<<"stats-stream">>],bigwig_http_stats_stream,[]},{'_',bigwig_http_catchall,[]}]}]}]],[]},{bigwig_http,init,1,[{file,"src/bigwig_http.erl"},{line,54}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [bigwig_sup,<0.207.0>]
+    messages: []
+    links: [<0.208.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 912
+  neighbours:
+2015-01-07 00:10:25 =SUPERVISOR REPORT====
+     Supervisor: {local,bigwig_sup}
+     Context:    start_error
+     Reason:     {undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,[]},{[<<"appmon">>,'...'],bigwig_http_appmon,[]},{[<<"stats-stream">>],bigwig_http_stats_stream,[]},{'_',bigwig_http_catchall,[]}]}]}]],[]},{bigwig_http,init,1,[{file,"src/bigwig_http.erl"},{line,54}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,undefined},{name,bigwig_http},{mfargs,{bigwig_http,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-07 00:10:25 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.206.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,bigwig_http,{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,[]},{[<<"appmon">>,'...'],bigwig_http_appmon,[]},{[<<"stats-stream">>],bigwig_http_stats_stream,[]},{'_',bigwig_http_catchall,[]}]}]}]],[]},{bigwig_http,init,1,[{file,"src/bigwig_http.erl"},{line,54}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{bigwig_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.205.0>]
+    messages: [{'EXIT',<0.207.0>,normal}]
+    links: [<0.205.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 185
+  neighbours:
+2015-01-07 00:12:26 =CRASH REPORT====
+  crasher:
+    initial call: bigwig_http:init/1
+    pid: <0.110.0>
+    registered_name: []
+    exception exit: {{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,[]},{[<<"appmon">>,'...'],bigwig_http_appmon,[]},{[<<"stats-stream">>],bigwig_http_stats_stream,[]},{'_',bigwig_http_catchall,[]}]}]}]],[]},{bigwig_http,init,1,[{file,"src/bigwig_http.erl"},{line,54}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [bigwig_sup,<0.102.0>]
+    messages: []
+    links: [<0.103.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 912
+  neighbours:
+2015-01-07 00:12:26 =SUPERVISOR REPORT====
+     Supervisor: {local,bigwig_sup}
+     Context:    start_error
+     Reason:     {undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,[]},{[<<"appmon">>,'...'],bigwig_http_appmon,[]},{[<<"stats-stream">>],bigwig_http_stats_stream,[]},{'_',bigwig_http_catchall,[]}]}]}]],[]},{bigwig_http,init,1,[{file,"src/bigwig_http.erl"},{line,54}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,undefined},{name,bigwig_http},{mfargs,{bigwig_http,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-01-07 00:12:26 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.101.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,bigwig_http,{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,[]},{[<<"appmon">>,'...'],bigwig_http_appmon,[]},{[<<"stats-stream">>],bigwig_http_stats_stream,[]},{'_',bigwig_http_catchall,[]}]}]}]],[]},{bigwig_http,init,1,[{file,"src/bigwig_http.erl"},{line,54}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{bigwig_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.100.0>]
+    messages: [{'EXIT',<0.102.0>,normal}]
+    links: [<0.100.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 185
+  neighbours:

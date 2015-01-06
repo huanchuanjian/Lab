@@ -27,3 +27,43 @@
 2015-01-05 10:36:45.419 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
 2015-01-05 23:06:54.365 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
 2015-01-05 23:06:54.365 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
+2015-01-06 22:55:01.255 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-06 22:55:01.255 [info] <0.53.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-01-06 22:55:01.256 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-06 22:55:01.292 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-06 22:55:01.304 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-01-07 00:08:32.627 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-07 00:08:32.627 [info] <0.53.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-01-07 00:08:32.628 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-07 00:08:32.673 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-07 00:08:32.689 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-01-07 00:10:20.956 [warning] <0.6.0> lager_error_logger_h dropped 60 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-07 00:10:20.956 [info] <0.7.0> Application jsx started on node 'lab@127.0.0.1'
+2015-01-07 00:10:25.173 [info] <0.215.0> Bigwig listening on http://127.0.0.1:40829/
+
+2015-01-07 00:10:25.174 [error] <0.215.0> CRASH REPORT Process <0.215.0> with 0 neighbours exited with reason: call to undefined function cowboy:start_listener(http, 16, cowboy_tcp_transport, [{port,40829}], cowboy_http_protocol, [{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],...},...]}]}]) in gen_server:init_it/6 line 330
+2015-01-07 00:10:25.174 [error] <0.208.0> Supervisor bigwig_sup had child bigwig_http started with bigwig_http:start_link() at undefined exit with reason call to undefined function cowboy:start_listener(http, 16, cowboy_tcp_transport, [{port,40829}], cowboy_http_protocol, [{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],...},...]}]}]) in context start_error
+2015-01-07 00:10:25.174 [error] <0.206.0> CRASH REPORT Process <0.206.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,bigwig_http,{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,...},...]}]}]],...},...]}}},...} in application_master:init/4 line 133
+2015-01-07 00:10:25.175 [info] <0.7.0> Application bigwig exited with reason: {{shutdown,{failed_to_start_child,bigwig_http,{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,...},...]}]}]],...},...]}}},...}
+2015-01-07 00:11:10.892 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-07 00:11:10.892 [info] <0.7.0> Application jsx started on node 'lab@127.0.0.1'
+2015-01-07 00:11:10.895 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
+2015-01-07 00:12:14.253 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-07 00:12:14.253 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-07 00:12:14.258 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-07 00:12:14.260 [info] <0.7.0> Application jsx started on node 'lab@127.0.0.1'
+2015-01-07 00:12:14.262 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
+2015-01-07 00:12:26.638 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-01-07 00:12:26.684 [info] <0.110.0> Bigwig listening on http://127.0.0.1:40829/
+
+2015-01-07 00:12:26.685 [error] <0.110.0> CRASH REPORT Process <0.110.0> with 0 neighbours exited with reason: call to undefined function cowboy:start_listener(http, 16, cowboy_tcp_transport, [{port,40829}], cowboy_http_protocol, [{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],...},...]}]}]) in gen_server:init_it/6 line 330
+2015-01-07 00:12:26.686 [error] <0.103.0> Supervisor bigwig_sup had child bigwig_http started with bigwig_http:start_link() at undefined exit with reason call to undefined function cowboy:start_listener(http, 16, cowboy_tcp_transport, [{port,40829}], cowboy_http_protocol, [{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],...},...]}]}]) in context start_error
+2015-01-07 00:12:26.687 [error] <0.101.0> CRASH REPORT Process <0.101.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,bigwig_http,{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,...},...]}]}]],...},...]}}},...} in application_master:init/4 line 133
+2015-01-07 00:12:26.687 [info] <0.7.0> Application bigwig exited with reason: {{shutdown,{failed_to_start_child,bigwig_http,{undef,[{cowboy,start_listener,[http,16,cowboy_tcp_transport,[{port,40829}],cowboy_http_protocol,[{dispatch,[{'_',[{[],bigwig_http_static,[<<"html">>,<<"index.html">>]},{[<<"static">>,'...'],bigwig_http_static,[]},{[<<"vm">>],bigwig_http_vm,[]},{[<<"rb">>,<<"stream">>],bigwig_http_rb_stream,[]},{[<<"rb">>,'...'],bigwig_http_rb,[]},{[<<"pid">>,'...'],bigwig_http_pid,[]},{[<<"module">>,'...'],bigwig_http_module,[]},{[<<"top">>,'...'],bigwig_http_etop2,...},...]}]}]],...},...]}}},...}
+2015-01-07 00:13:15.506 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-07 00:13:15.507 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-07 00:13:15.512 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-07 00:13:15.513 [info] <0.7.0> Application jsx started on node 'lab@127.0.0.1'
+2015-01-07 00:13:15.515 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
