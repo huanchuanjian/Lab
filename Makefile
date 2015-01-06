@@ -1,7 +1,3 @@
-# PROJECT = lab
-# DEPS = cowboy
-# include ./deps/cowboy/erlang.mk
-
 REBAR := ./rebar
 
 all: get-deps compile 
