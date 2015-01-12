@@ -1,29 +1,44 @@
-2015-01-04 13:46:08.737 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 13:46:08.737 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-04 15:52:48.523 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 15:52:48.523 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-04 16:26:33.803 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 16:26:33.803 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-04 16:33:06.898 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 16:33:06.898 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-04 16:37:24.395 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 16:37:24.395 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-04 17:01:01.227 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 17:01:01.227 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-04 23:03:39.526 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 23:03:39.526 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-04 23:10:29.875 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 23:11:31.565 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-04 23:11:31.565 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-05 09:56:31.754 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-05 09:56:31.754 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-05 10:26:56.265 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-05 10:26:56.265 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-05 10:28:53.488 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-05 10:28:53.488 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-05 10:34:46.888 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-05 10:34:46.888 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-05 10:36:45.419 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-05 10:36:45.419 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
-2015-01-05 23:06:54.365 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
-2015-01-05 23:06:54.365 [info] <0.7.0> Application lab started on node 'lab@127.0.0.1'
+2015-01-06 14:50:41.110 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-06 14:50:41.110 [info] <0.49.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-01-06 14:50:41.115 [info] <0.7.0> Application crypto started on node 'lab@127.0.0.1'
+2015-01-06 14:50:41.116 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-06 14:50:41.119 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-06 14:50:41.123 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-01-06 14:50:49.910 [warning] <0.6.0> lager_error_logger_h dropped 15 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-06 15:00:13.326 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-06 15:00:13.326 [info] <0.52.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-01-06 15:00:13.326 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-06 15:00:13.329 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-06 15:00:13.332 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-01-06 15:00:25.381 [warning] <0.6.0> lager_error_logger_h dropped 55 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-06 18:25:14.674 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-06 18:25:14.674 [info] <0.52.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-01-06 18:25:14.675 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-06 18:25:14.679 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-06 18:25:14.683 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-01-06 18:36:31.338 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-06 18:36:31.338 [error] emulator Error in process <0.202.0> on node 'lab@127.0.0.1' with exit value: {[{reason,undef},{mfa,{http_handler,init,3}},{stacktrace,[{http_handler,init,[{tcp,http},{http_req,#Port<0.4836>,ranch_tcp,keepalive,<0.202.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63753},<<9 bytes>>,undefined,8088,<<1 byte>>,undefined,<<0 bytes>>,undefined,[],[{<<10 bytes>>,<<11 bytes>>},{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<3 bytes>>}],[],undefined,[],waiting,<<0 bytes>>,undefined... 
+
+
+2015-01-06 18:36:31.339 [error] <0.97.0> Ranch listener lab_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.202.0> exit with reason: {[{reason,undef},{mfa,{http_handler,init,3}},{stacktrace,[{http_handler,init,[{tcp,http},{http_req,#Port<0.4836>,ranch_tcp,keepalive,<0.202.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63753},<<"localhost">>,undefined,8088,<<"/">>,undefined,<<>>,undefined,[],[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"localhost:8088">>},{<<"accept">>,<<"*/*">>}],[],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.4836>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.202.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},63753}},{host,<<"localhost">>},{host_info,undefined},{port,8088},{path,<<"/">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"localhost:8088">>},{<<"accept">>,<<"*/*">>}]},{p_headers,[]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+
+2015-01-06 18:36:45.876 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-01-06 18:36:45.876 [info] <0.52.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-01-06 18:36:45.876 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-01-06 18:36:45.880 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-01-06 18:36:45.884 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-01-06 18:36:51.265 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-01-06 18:36:51.265 [error] emulator Error in process <0.201.0> on node 'lab@127.0.0.1' with exit value: {[{reason,undef},{mfa,{http_handler,init,3}},{stacktrace,[{http_handler,init,[{tcp,http},{http_req,#Port<0.4821>,ranch_tcp,keepalive,<0.201.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63757},<<9 bytes>>,undefined,8088,<<1 byte>>,undefined,<<0 bytes>>,undefined,[],[{<<10 bytes>>,<<11 bytes>>},{<<4 bytes>>,<<14 bytes>>},{<<6 bytes>>,<<3 bytes>>}],[],undefined,[],waiting,<<0 bytes>>,undefined... 
+
+
+2015-01-06 18:36:51.266 [error] <0.97.0> Ranch listener lab_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.201.0> exit with reason: {[{reason,undef},{mfa,{http_handler,init,3}},{stacktrace,[{http_handler,init,[{tcp,http},{http_req,#Port<0.4821>,ranch_tcp,keepalive,<0.201.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63757},<<"localhost">>,undefined,8088,<<"/">>,undefined,<<>>,undefined,[],[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"localhost:8088">>},{<<"accept">>,<<"*/*">>}],[],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.4821>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.201.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},63757}},{host,<<"localhost">>},{host_info,undefined},{port,8088},{path,<<"/">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"user-agent">>,<<"curl/7.37.1">>},{<<"host">>,<<"localhost:8088">>},{<<"accept">>,<<"*/*">>}]},{p_headers,[]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+
+2015-01-06 18:38:14.491 [error] <0.97.0> Ranch listener lab_http_listener had connection process started with cowboy_protocol:start_link/4 at <0.202.0> exit with reason: {[{reason,undef},{mfa,{http_handler,init,3}},{stacktrace,[{http_handler,init,[{tcp,http},{http_req,#Port<0.4876>,ranch_tcp,keepalive,<0.202.0>,<<"GET">>,'HTTP/1.1',{{127,0,0,1},63773},<<"localhost">>,undefined,8088,<<"/">>,undefined,<<>>,undefined,[],[{<<"host">>,<<"localhost:8088">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,de;q=0.2">>},{<<"cookie">>,<<"ci_session=a%3A7%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22ee9d9657bc828ffddd285886f4b9afaa%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%22%3A%3A1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A120%3A%22Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_10_1%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F39.0.2171.95+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420537312%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A3%3A%22uid%22%3Bs%3A1%3A%221%22%3Bs%3A5%3A%22uname%22%3Bs%3A5%3A%22admin%22%3B%7Dec083f6299536ad38fa442dd02d03ed6">>}],[{<<"connection">>,[<<"keep-alive">>]}],undefined,[],waiting,<<>>,undefined,false,waiting,[],<<>>,undefined},[]],[]},{cowboy_handler,handler_init,4,[{file,"src/cowboy_handler.erl"},{line,64}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]},{req,[{socket,#Port<0.4876>},{transport,ranch_tcp},{connection,keepalive},{pid,<0.202.0>},{method,<<"GET">>},{version,'HTTP/1.1'},{peer,{{127,0,0,1},63773}},{host,<<"localhost">>},{host_info,undefined},{port,8088},{path,<<"/">>},{path_info,undefined},{qs,<<>>},{qs_vals,undefined},{bindings,[]},{headers,[{<<"host">>,<<"localhost:8088">>},{<<"connection">>,<<"keep-alive">>},{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>},{<<"user-agent">>,<<"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36">>},{<<"accept-encoding">>,<<"gzip, deflate, sdch">>},{<<"accept-language">>,<<"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,de;q=0.2">>},{<<"cookie">>,<<"ci_session=a%3A7%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22ee9d9657bc828ffddd285886f4b9afaa%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A3%3A%22%3A%3A1%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A120%3A%22Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_10_1%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F39.0.2171.95+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1420537312%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A3%3A%22uid%22%3Bs%3A1%3A%221%22%3Bs%3A5%3A%22uname%22%3Bs%3A5%3A%22admin%22%3B%7Dec083f6299536ad38fa442dd02d03ed6">>}]},{p_headers,[{<<"connection">>,[<<"keep-alive">>]}]},{cookies,undefined},{meta,[]},{body_state,waiting},{buffer,<<>>},{multipart,undefined},{resp_compress,false},{resp_state,waiting},{resp_headers,[]},{resp_body,<<>>},{onresponse,undefined}]},{opts,[]}],[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+
+2015-01-06 18:38:14.491 [error] emulator Error in process <0.202.0> on node 'lab@127.0.0.1' with exit value: {[{reason,undef},{mfa,{http_handler,init,3}},{stacktrace,[{http_handler,init,[{tcp,http},{http_req,#Port<0.4876>,ranch_tcp,keepalive,<0.202.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63773},<<9 bytes>>,undefined,8088,<<1 byte>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<19 bytes>>},{<<15 bytes>>,<<41 bytes>>},{<<6 bytes>>,<<547 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined... 
+
+

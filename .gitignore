@@ -1,4 +1,4 @@
-.idea
-ebin
-deps
-log
+.idea/
+ebin/
+deps/
+log/
