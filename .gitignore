@@ -1,5 +1,6 @@
 *.beam
 .idea/
+.eunit/
 ebin/
 deps/
 log/
