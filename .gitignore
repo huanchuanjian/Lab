@@ -1,5 +1,6 @@
+*.beam
 .idea/
 ebin/
 deps/
 log/
-*.dump
+erl_crash.dump
