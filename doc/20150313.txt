@@ -1,0 +1,11 @@
+Tsung初次使用，测试MySQL
+
+  -编写xml文件，可以参考源码的example目录下的文件，在导入dtd文件注意自己机器的目录未必和例子的一致，比如我子集的ubuntu目录就是"/usr/local/share/tsung"，不是"/usr/share/..."
+  -测试结束后，想使用自带的perl工具生成统计结果报表，可能会报错，提示“需要安装Template模块”
+    perl -MCPAN -eshell 
+    install Template
+    exit
+
+  -
+   
+  

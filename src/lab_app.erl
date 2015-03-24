@@ -12,6 +12,7 @@
 start() ->
 	application:start(crypto),
 	application:start(mimetypes),
+    application:start(pooler),
     application:start(lab).
 
 start(_StartType, _StartArgs) ->

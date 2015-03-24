@@ -42,3 +42,118 @@
 2015-01-06 18:38:14.491 [error] emulator Error in process <0.202.0> on node 'lab@127.0.0.1' with exit value: {[{reason,undef},{mfa,{http_handler,init,3}},{stacktrace,[{http_handler,init,[{tcp,http},{http_req,#Port<0.4876>,ranch_tcp,keepalive,<0.202.0>,<<3 bytes>>,'HTTP/1.1',{{127,0,0,1},63773},<<9 bytes>>,undefined,8088,<<1 byte>>,undefined,<<0 bytes>>,undefined,[],[{<<4 bytes>>,<<14 bytes>>},{<<10 bytes>>,<<10 bytes>>},{<<6 bytes>>,<<74 bytes>>},{<<10 bytes>>,<<120 bytes>>},{<<15 bytes>>,<<19 bytes>>},{<<15 bytes>>,<<41 bytes>>},{<<6 bytes>>,<<547 bytes>>}],[{<<10 bytes>>,[<<10 bytes>>]}],undefined... 
 
 
+2015-03-12 11:01:03.608 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 11:01:03.608 [info] <0.53.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 11:01:03.609 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 11:01:03.611 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 11:01:03.613 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 11:01:16.732 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 14:38:40.915 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 14:38:40.915 [info] <0.53.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 14:38:40.915 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 14:38:40.917 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 14:38:40.919 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 14:45:44.464 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 14:45:44.464 [info] <0.58.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 14:45:44.465 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 14:45:44.467 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 14:45:44.469 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 14:45:52.012 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 14:48:44.106 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 14:48:44.106 [info] <0.53.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 14:48:44.106 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 14:48:44.108 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 14:48:44.111 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 14:48:50.314 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 14:49:54.233 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 14:49:54.233 [info] <0.58.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 14:49:54.233 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 14:49:54.235 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 14:49:54.237 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 14:50:00.394 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 14:55:04.172 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 14:55:04.172 [info] <0.67.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 14:55:04.172 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 14:55:04.174 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 14:55:04.176 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 14:55:24.966 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 14:56:51.196 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 14:56:51.196 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 14:56:51.196 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 14:56:51.198 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 14:56:51.200 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 14:56:57.792 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 14:57:35.380 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 14:57:35.380 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 14:57:35.380 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 14:57:35.382 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 14:57:35.385 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 14:57:41.540 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 15:09:53.291 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 15:09:53.291 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 15:09:53.291 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 15:09:53.294 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 15:09:53.296 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 15:09:59.044 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 15:26:43.712 [error] <0.228.0> ** wx object server <0.228.0> terminating 
+** Last message in was {active,'android_database@127.0.0.1'}
+** When Server state == {state,<0.220.0>,{wx_ref,313,wxPanel,[]},{wx_ref,316,wxListBox,[]},{wx_ref,319,wxScrolledWindow,[]},{paint,{wx_ref,328,wxFont,[]},{wx_ref,332,wxPen,[]},{wx_ref,329,wxBrush,[]},{wx_ref,330,wxBrush,[]},{wx_ref,331,wxPen,[]}},pooler,{app,{{box,16,69,57,26,{str,5,5,"<0.52.0>",<0.52.0>}},[{{box,89,69,57,26,{str,5,5,"<0.53.0>",<0.53.0>}},[{{box,162,69,68,26,{str,5,5,"pooler_sup",<0.54.0>}},[{{box,246,50,147,26,{str,5,5,"pooler_log_pool_pool_sup",<0.56.0>}},[{{box,409,12,54,26,{str,5,5,"log_pool",<0.58.0>}},[]},{{box,409,88,169,26,{str,5,5,"pooler_log_pool_member_sup",<0.57.0>}},[{{box,594,12,57,26,{str,5,5,"<0.64.0>",<0.64.0>}},[]},{{box,594,50,57,26,{str,5,5,"<0.65.0>",<0.65.0>}},[]},{{box,594,88,57,26,{str,5,5,"<0.66.0>",<0.66.0>}},[]},{{box,594,126,57,26,{str,5,5,"<0.67.0>",<0.67.0>}},[]},{{box,594,164,57,26,{str,5,5,"<0.68.0>",<0.68.0>}},[]}]}]},{{box,246,88,108,26,{str,5,5,"pooler_starter_sup",<0.55.0>}},[]}]}]}]},undefined,[],{667,202}},undefined,undefined,true}
+** Reason for termination == 
+** {{badmatch,{badrpc,nodedown}},[{observer_app_wx,handle_info,2,[{file,"observer_app_wx.erl"},{line,282}]},{wx_object,handle_msg,5,[{file,"wx_object.erl"},{line,394}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+
+2015-03-12 15:26:43.713 [error] <0.228.0> CRASH REPORT Process <0.228.0> with 0 neighbours exited with reason: no match of right hand value {badrpc,nodedown} in observer_app_wx:handle_info/2 line 282 in wx_object:terminate/6 line 521
+2015-03-12 15:26:43.719 [error] <0.416.0> gen_server appmon_info terminated with reason: no match of right hand value {badrpc,nodedown} in observer_app_wx:handle_info/2 line 282
+2015-03-12 15:26:43.719 [error] <0.416.0> CRASH REPORT Process appmon_info with 0 neighbours exited with reason: no match of right hand value {badrpc,nodedown} in observer_app_wx:handle_info/2 line 282 in gen_server:terminate/7 line 804
+2015-03-12 15:26:54.677 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 15:26:54.677 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 15:26:54.677 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 15:26:54.679 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 15:26:54.682 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 15:28:30.109 [warning] <0.6.0> lager_error_logger_h dropped 64 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-12 20:06:11.062 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-12 20:06:11.062 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-12 20:06:11.062 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-12 20:06:11.065 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-12 20:06:11.097 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-12 20:06:20.816 [warning] <0.6.0> lager_error_logger_h dropped 14 messages in the last second that exceeded the limit of 50 messages/sec
+2015-03-13 15:26:07.580 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-13 15:26:07.580 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-13 15:26:07.580 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-13 15:26:07.583 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-13 15:26:07.603 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-13 15:27:53.777 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-13 15:27:53.777 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-13 15:27:53.777 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-13 15:27:53.779 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-13 15:27:53.782 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-13 15:28:44.862 [info] <0.7.0> Application lager started on node 'lab@127.0.0.1'
+2015-03-13 15:28:44.862 [info] <0.71.0> Starting cowboy on 'lab@127.0.0.1'
+
+2015-03-13 15:28:44.863 [info] <0.7.0> Application cowlib started on node 'lab@127.0.0.1'
+2015-03-13 15:28:44.865 [info] <0.7.0> Application ranch started on node 'lab@127.0.0.1'
+2015-03-13 15:28:44.867 [info] <0.7.0> Application cowboy started on node 'lab@127.0.0.1'
+2015-03-16 14:37:06.555 [info] <0.7.0> Application lager started on node 'lab01@127.0.0.1'
+2015-03-16 14:37:06.555 [info] <0.71.0> Starting cowboy on 'lab01@127.0.0.1'
+
+2015-03-16 14:37:06.556 [info] <0.7.0> Application cowlib started on node 'lab01@127.0.0.1'
+2015-03-16 14:37:06.571 [info] <0.7.0> Application ranch started on node 'lab01@127.0.0.1'
+2015-03-16 14:37:06.574 [info] <0.7.0> Application cowboy started on node 'lab01@127.0.0.1'
+2015-03-20 15:39:50.604 [info] <0.7.0> Application lager started on node 'lab01@127.0.0.1'
+2015-03-20 15:39:50.604 [info] <0.71.0> Starting cowboy on 'lab01@127.0.0.1'
+
+2015-03-20 15:39:50.604 [info] <0.7.0> Application cowlib started on node 'lab01@127.0.0.1'
+2015-03-20 15:39:50.607 [info] <0.7.0> Application ranch started on node 'lab01@127.0.0.1'
+2015-03-20 15:39:50.640 [info] <0.7.0> Application cowboy started on node 'lab01@127.0.0.1'
