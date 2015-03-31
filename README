@@ -1,2 +1,9 @@
 Erlang lab application
 ======================
+
+TODO:
+    1. 实现tcp长连接通讯方式
+        - 选项{package, 4}, {package_size, 1024 * 10}
+
+    2. 实现tcp短连接通讯方式
+    3. 添加protobuffer序列化方式

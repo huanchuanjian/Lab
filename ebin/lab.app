@@ -5,5 +5,5 @@
               {applications,[kernel,stdlib,crypto]},
               {mod,{lab_app,[]}},
               {env,[]},
-              {modules,[db_agent,http_handler,lab_app,lab_sup,lib_csv,log_gs,
-                        monitor_test,ms,ops,recv]}]}.
+              {modules,[db_agent,gateway_app,gateway_sup,http_handler,lab_app,
+                        lab_sup,lib_csv,log_gs,monitor_test,ms,ops,recv]}]}.
