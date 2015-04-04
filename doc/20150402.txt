@@ -1,0 +1,3 @@
+阅读riak pbc api文档，重点关注消息的定义以及rpc的使用
+
+http://docs.basho.com/riak/latest/dev/references/protocol-buffers/

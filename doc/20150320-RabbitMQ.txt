@@ -1,0 +1,17 @@
+Queues: Queues是AMQP发送消息的基础模块
+-consumer,producer创建queue都可以使用"queue.declare"
+-如果queue已经成功创建，"queue.declare"同样会返回成功
+-他给待处理的消息提供了一个场所
+-Queue很适合做负载均衡，Queue连接了一帮comsumer，让他们循环处理过来的消息
+-他们在Rabbit内部是任何消息的终点
+
+============================================================
+Exchanges:
+-当我们想分发消息到Queue时，都需要通过把消息发送到exchange，然后给予某些规则，RabbitMQ将决定它应该被发送到哪一个queue
+-某些规则对应就是"routing keys"，一个queue通过一个"routing key"绑定到一个exchange
+-当我们发送一个消息给broker时，它都会有一个"routing key"，如果匹配，这条消息就会被分发到对应的queue，如果key不匹配所有的绑定模式，消息就会进”黑洞“
+-exchanges提供的多种类型（4种）：direct|fanout|topic|headers
+	-headers exchange允许通过AMQP消息的头进行匹配，并不是routing key
+	-direct exchange当一个queue声明后它就会自动绑定到那个exchange，使用queue名作为routing key
+	-fanout exchange
+	-Topic exchange(Last but not least)
